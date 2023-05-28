@@ -2,7 +2,7 @@ numbers = int(input("The total number input is = "))
 
 
 n1, n2 = 0, 1
-count = 0
+num = 0
 
 
 if numbers <= 0:
@@ -16,9 +16,9 @@ elif numbers == 1:
    
 else:
    print("The Fibonacci sequence is :")
-   while count < numbers:
+   while num < numbers:
        print(n1)
        nth = n1 + n2
        n1 = n2
        n2 = nth
-       count += 1
+       num += 1
